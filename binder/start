@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo ". /srv/conda/etc/profile.d/conda.sh" >> ~/.bashrc
+source ~/.bashrc
+
+exec "$@"
